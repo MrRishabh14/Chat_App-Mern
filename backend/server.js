@@ -49,7 +49,7 @@ app.use('/api/auth',userRouter);
 app.use('/api/messages',messageRouter);
 
 connectDB();
-const Port=process.env.Port|| 3000;
+const Port=process.env.PORT||3000;
 server.listen(Port,(req,res)=>{
   console.log(`Server is running on PORT:${Port}`);
 })
