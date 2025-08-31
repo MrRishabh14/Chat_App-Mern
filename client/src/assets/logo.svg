@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="150" viewBox="0 0 600 150" role="img" aria-label="Chatly logo">
+  <!-- Transparent background -->
+  <g transform="translate(20,20)">
+    <!-- Speech bubble -->
+    <rect x="0" y="0" rx="25" ry="25" width="90" height="70" fill="#855FA8"/>
+    <polygon points="40,70 55,70 47.5,90" fill="#855FA8"/>
+    <!-- Dots inside -->
+    <circle cx="30" cy="35" r="6" fill="#FFFFFF"/>
+    <circle cx="45" cy="35" r="6" fill="#FFFFFF"/>
+    <circle cx="60" cy="35" r="6" fill="#FFFFFF"/>
+    <!-- Wordmark -->
+    <text x="120" y="55" font-family="Poppins, Inter, 'Segoe UI', system-ui, sans-serif"
+          font-size="48" font-weight="700" fill="#FFFFFF">
+      Chatly
+    </text>
+  </g>
+</svg>
